@@ -2,7 +2,7 @@ name: 🚀 Update PPVLand Playlist 📺
 
 on:
   schedule:
-    - cron: '5 6 * * *'  # ⏰ Run at 6:05am daily
+    - cron: "45 * * * *"  # ⏰ Run at 45min past the hour
   workflow_dispatch:
 
 permissions:
